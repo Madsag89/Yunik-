@@ -10,11 +10,7 @@ function nav(){
 };
 
 
-
-
-
 //Chat funktion
-
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
@@ -24,15 +20,12 @@ function closeForm() {
 }
 
 
-
-
-
 //Shrink header
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
 
-
+  
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("yuniklogo").style.maxHeight = "90px";
     document.getElementById("yuniklogo").style.marginTop = "5px";
@@ -47,5 +40,16 @@ function scrollFunction() {
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
